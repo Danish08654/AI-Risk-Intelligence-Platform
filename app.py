@@ -127,8 +127,7 @@ with st.sidebar:
 
 
 # ── header ──
-st.markdown("## 🛡️ AI Risk Intelligence Dashboard")
-st.caption("Real-time vendor · financial · compliance · cyber risk analysis")
+st.markdown("##  AI Risk Intelligence ")
 st.divider()
 
 # ── run ──
