@@ -1,6 +1,6 @@
 import streamlit as st
-import requests
 import pandas as pd
+from groq import Groq
 
 # ----------------------------
 # PAGE CONFIG
@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("AI Risk Intelligence Dashboard")
+st.title("AI Risk Intelligence ")
 
 st.markdown("Real-time vendor, financial, compliance & cyber risk analysis")
 
