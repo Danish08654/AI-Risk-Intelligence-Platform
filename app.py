@@ -84,7 +84,7 @@ Scoring: risk_score 0-40=Low, 41-60=Medium, 61-80=High, 81-100=Critical.
 Be specific — reference the company name and industry."""
 
     raw = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-20b",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.2, max_tokens=1000
     ).choices[0].message.content.strip()
